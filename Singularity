@@ -21,7 +21,7 @@ From: ubuntu:14.04.5
     cd /usr/local/share
     wget https://sourceforge.net/projects/log4cpp/files/log4cpp-1.1.x%20%28new%29/log4cpp-1.1/log4cpp-1.1.2.tar.gz
     tar -zxvf log4cpp-1.1.2.tar.gz
-    cd log4cpp
+    cd /usr/local/share/log4cpp
     ./configure
     make
     make install
